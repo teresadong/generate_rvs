@@ -34,4 +34,4 @@ Once the object is created, we can call the functions below:
 
 * **generateGamma(Alpha, Beta, size, random_state)**: Generates size number of Gamma Random Variables based on Alpha and Beta parameter and random state seed
 
-More exmaples of how to use the functions are in demo.ipynb
+More examples of how to use the functions are in demo.ipynb
