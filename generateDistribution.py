@@ -135,8 +135,6 @@ class distGenerator:
         return B
 
 
-
-
     def generateGeometric(self, p, size, random_state):
         """Generates size number of Geometric Random Variables based on p parameter and random state seed
 
