@@ -184,7 +184,7 @@ class distGenerator:
         
         # Standard Normal pair
         Z0 = np.sqrt(-2*np.log(U1))*np.cos(2*np.pi*U2)
-        Z1 = np.sqrt(-2*np.log(U2))*np.sin(2*np.pi*U2)
+        Z1 = np.sqrt(-2*np.log(U1))*np.sin(2*np.pi*U2)
             
         # Scaling                        
         Z2 = Z0*Sigma+Mu
