@@ -171,7 +171,7 @@ class distGenerator:
         Args:
             Mu (float): mean of the normal distribution
             Sigma (float): standard deviation of the normal distribution
-            size ([type]): [description]
+            size (int): Number of random variates to generate
             random_state1 (int): Random seed for the normal variable
             random_state2 (int): Random seed for the normal variable
 
