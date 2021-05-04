@@ -1,10 +1,10 @@
 # Generate Random Variates from Various Distributions
 
 
-The library for generating random variates is in the file genDistribution.py. By importing the library, we can create an object of the distGenerator class.  
+The library for generating random variates is in the file generateDistribution.py. By importing the library, we can create an object of the distGenerator class.  
 
 ```
-# Import the genDistribution Library
+# Import the generateDistribution Library
 import generateDistribution as genDist
 
 # Create an object of the distGenerator class
@@ -17,7 +17,7 @@ Once the object is created, we can call the functions below:
 
 * **plotDist()**: Plot histogram of the generated random numbers
 
-* **compPlotDist()**: Side by Side Comparison of Distribution Histograms, usually the generated Random Variate (from the genDistribution.py Library) and the corresponding scipy function
+* **compPlotDist()**: Side by Side Comparison of Distribution Histograms, usually the generated Random Variate (from the generateDistribution.py Library) and the corresponding scipy function
 
 * **validateDist()**: Validates if the generated distribution matches that of the scipy reference distribution by conducting a Kolmogorov–Smirnov test (KS) Test,   usually the generated Random Variate (from the genDistribution.py Library) and the corresponding scipy function generated Random Variate
 
