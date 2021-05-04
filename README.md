@@ -19,7 +19,7 @@ Once the object is created, we can call the functions below:
 
 * **compPlotDist()**: Side by Side Comparison of Distribution Histograms, usually the generated Random Variate (from the generateDistribution.py Library) and the corresponding scipy function
 
-* **validateDist()**: Validates if the generated distribution matches that of the scipy reference distribution by conducting a Kolmogorov–Smirnov test (KS) Test,   usually the generated Random Variate (from the genDistribution.py Library) and the corresponding scipy function generated Random Variate
+* **validateDist()**: Validates if the generated distribution matches that of the scipy reference distribution by conducting a Kolmogorov–Smirnov test (KS) Test,   usually the generated Random Variate (from the generateDistribution.py Library) and the corresponding scipy function generated Random Variate
 
 ## Generate Random Variates for Various Distributions
 * **generateExponential(Lambda, size, random_state)**: Generates size number of Exponential Random Variables based on Lambda parameter and random state seed
